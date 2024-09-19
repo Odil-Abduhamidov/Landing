@@ -3,3 +3,83 @@
     margin: 0;
 }
 
+body {
+    font-family: 'TT Hoves' , sans-se rif;
+    color: #222222;
+}
+
+
+section {
+    padding: 0 calc(24px + (121 - 24) * ((100vw - 375px) / (1280 - 375)));
+    
+}
+
+section.Hello {
+    padding-top: 40px;
+    background-image: url('../img/html_css_js.svg'); 
+    background-repeat: no-repeat;
+    background-position: top 20px right 40px;
+    background-size: 30%;
+}
+
+.logo {
+   
+    height:  41px calc(30px + (41 - 30) * ((100vw - 375px) / (1280 - 375))) 
+}
+
+.courseInfo {
+    display: flex;
+    gap: 30px 160px;
+    flex-wrap: wrap;
+    margin-top: calc(28px + (80 - 28) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(48px + (76 - 4f8) * ((100vw - 375px) / (1280 - 375))); 
+}
+
+.courseData {
+    font-size: 21px;
+    line-height: 140%;
+}
+
+.courseData .value {
+    font-weight: 700; 
+}
+
+h1 {
+    font-family: 'Chava' , sans-serif;
+    font-size: calc(42px + (80 - 42) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 110%;
+}
+
+p { 
+    margin-top: calc(20px + (40 - 20) * ((100vw - 375px) / (1280 - 375)));
+    font-size: 27px;
+    font-weight: calc(18px + (27 - 18 ) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 140% ;
+}
+.cta {
+    margin-top: 20px;   
+    gap: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    width: 328px;
+    padding: 20px 0px;
+    border-radius: 12px;
+    font-style: 18px;
+    font-weight: 500;
+    line-height: 117%;
+}
+
+button.purple {
+    background: #6E3ABA;
+    color: white;
+    border: 1px solid #6E3ABA;
+    
+   
+}
+button.white {
+    border: 1px solid #6E3ABA;
+    color: #6E3ABA;
+   
+}
