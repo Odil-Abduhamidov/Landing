@@ -16,7 +16,7 @@ section {
 
 section.Hello {
     padding-top: 40px;
-    background-image: url('../img/html_css_js.svg'); 
+    background-image: url('./img/html_css_js 1.svg'); 
     background-repeat: no-repeat;
     background-position: top 20px right 40px;
     background-size: 30%;
@@ -81,5 +81,49 @@ button.purple {
 button.white {
     border: 1px solid #6E3ABA;
     color: #6E3ABA;
+    margin: auto;
    
+}
+
+.opisanie {
+    width: 420px;
+    height: 38px;
+    gap: 0px;
+
+
+}
+
+
+.saleContainer {
+    background-color: #6E3ABA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: calc(4.4vw + 23px) 0 calc(5.3vw + 20px);
+
+}
+
+.saleContainer h3{
+    color: #6E3ABA;
+    font-size: calc(2vw + 26.5px);
+    margin-bottom: calc(4.1vw + 4.7px);
+}
+
+.time {
+    display: flex;
+    gap: 75px;
+    margin-bottom: calc(4vw + 6px);
+}
+
+.timeCard .date{
+    font-family: 'Chava' , sans-serif;
+    font-size: calc(12.6vw + 12.8px);
+
+}
+
+
+.timeCard span {
+    display: block;
+    text-align: center;
+    font-size: calc(1.9vw + 3px);
 }
