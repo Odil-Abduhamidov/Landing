@@ -11,7 +11,7 @@ body {
 
 section {
     padding: 0 calc(24px + (121 - 24) * ((100vw - 375px) / (1280 - 375)));
-    
+    margin-bottom: calc(60px + (160 - 60) * ((100vw - 375px) / (1280 - 375)));
 }
 
 section.Hello {
@@ -132,25 +132,25 @@ h2 {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 40px;
-  }
+}
   
   
-  .features {
+.features {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
+}
   
-  .feature {
+.feature {
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 48%; 
     margin-bottom: 20px;
     box-sizing: border-box;
-  }
+}
   
-  .feature h3 {
+.feature h3 {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -168,5 +168,59 @@ h2 {
       margin-bottom: 20px;
     }
   }
+
+h2 {
+    font-size: calc(34px + (58 - 34) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 500;
+    margin-bottom: calc(40px + (90 - 40) * ((100vw - 375px) / (1280 - 375)));
+    text-transform: uppercase;
+    line-height: 117%;
+}
+
+.infoConainer{
+    display: flex;
+    gap: calc(29px + (51 - 20) * ((100vw - 375px) / (1280 - 375)));
+    flex-wrap: wrap;
+}
+
+.infoCard {
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+.infoCard img {
+    width: 100%;
+
+}
+
+.infoBox {
+    flex-basis: 300px;
+    flex-grow: 3;
+}   
+
+h4 {
+    font-size: calc(38px + (48 - 32) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.legendSkills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: calc(30px + (40 - 30) * ((100vw - 375px) / (1280 - 375)));
+    column-gap: calc(10px + (90 - 10) * ((100vw - 375px) / (1280 - 375)));
+    margin-top: calc(40px + (90 - 40) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.skill img{
+    width: 36px;
+}
+
+.skill span{
+    display: block;
+    margin-top: 10px;
+    font-style: calc(16px + (21 - 16) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 140%;
+}
 
 

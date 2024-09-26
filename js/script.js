@@ -1,5 +1,5 @@
 function sale(){
-    let saleDate = new Date(2024, 8, 25)
+    let saleDate = new Date(2024, 12, 25)
     let currentDate = new Date()
     let date = saleDate-currentDate
     let day = Math.floor(date/(24*60*60*1000))
