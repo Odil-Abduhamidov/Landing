@@ -223,4 +223,21 @@ h4 {
     line-height: 140%;
 }
 
+.diplom {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.diplom img {
+    grid-row: 1/3;
+}
+
+@media( max-width: 748px ){
+    .diplom{
+        grid-template-columns: 1fr;
+    }
+    .diplom img {
+        grid-row: 2/3;
+    }
+}
 
