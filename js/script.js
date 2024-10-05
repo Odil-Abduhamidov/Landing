@@ -13,7 +13,3 @@ function sale(){
     timeValue[3].innerHTML=seconds
 }
 
-
-setInterval(() => {
-    sale()
-}, 1000);
