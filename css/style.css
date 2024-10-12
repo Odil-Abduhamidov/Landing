@@ -126,6 +126,66 @@ footer {
     padding: 1rem;
 }
 
+.recipe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-container {
+    position: relative;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.video-thumbnail {
+    display: inline;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.recipe-text {
+    width: 50%;
+}
+
+.recipe-text h2 {
+    display: inline;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.recipe-text ul {
+    display: inline;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.recipe-text ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
